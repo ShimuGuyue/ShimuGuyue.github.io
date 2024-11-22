@@ -1,6 +1,18 @@
-p.平台账号
+div.大标题
 {
-    font-family: kaiti;
-    color : hotpink;
+    font-family : Microsoft Yahei;
+    font-size : 58px;
+}
+
+div.平台账号
+{
+    font-family : KaiTi;
     font-size : 24px;
+    color : hotpink;
+}
+
+body {
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
 }
