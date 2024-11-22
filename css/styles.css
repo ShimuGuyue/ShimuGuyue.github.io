@@ -15,7 +15,7 @@ body {
     background : url("\\resources\\images\\background.jpg");
     background-attachment : fixed;
     background-size: 100%;
-    background-repeat:round;
+    background-repeat:space;
     /* height: 100vh; */
     /* margin: 0; */
 }
