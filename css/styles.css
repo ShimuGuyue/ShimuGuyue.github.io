@@ -12,8 +12,9 @@ div.平台账号
 }
 
 body {
+    background : url("\\resources\\images\\background.jpg");
     background-size: 100%;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
+    /* background-repeat: no-repeat; */
+    /* height: 100vh; */
+    /* margin: 0; */
 }
