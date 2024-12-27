@@ -1,0 +1,4 @@
+body {
+    overflow-y: scroll; /* 始终显示垂直滚动条 */
+    scroll-behavior: smooth; /* 平滑滚动效果 */
+}

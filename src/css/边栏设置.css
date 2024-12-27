@@ -1,0 +1,10 @@
+.头像 {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 150px; /* 调整图片宽度 */
+    height: 150px; /* 调整图片高度 */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
