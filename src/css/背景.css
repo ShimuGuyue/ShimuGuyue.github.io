@@ -19,11 +19,11 @@ body::before {  /* 背景图片亮度 */
 
 .毛玻璃背景 {   /* 毛玻璃背景 */
     position: absolute; 
-    top: 50%; 
+    top: 40%; 
     left: 50%;
-    width: 80%;
-    height: 80%;
-    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 85%;
+    transform: translate(-50%, -35%);
     background: rgba(255, 255, 255, 0.2);   /* 毛玻璃颜色和亮度 */
     border-radius: 10px;
     backdrop-filter: blur(1px); /* 毛玻璃模糊程度 */

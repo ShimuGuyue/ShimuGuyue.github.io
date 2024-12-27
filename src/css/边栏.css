@@ -1,0 +1,26 @@
+.头像 {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 150px; /* 调整图片宽度 */
+    height: 150px; /* 调整图片高度 */
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.左侧文本 {
+    position: absolute;
+    top: 140px;
+    left: 10px;
+    width: 230px;
+    height: 780px;
+    padding: 10px;
+    border: none;   /* 隐藏边框 */
+    border-radius: 5px;
+    box-shadow: none;  /* 隐藏阴影 */
+    background-color: transparent;  /* 背景透明 */
+    font-size: 22px;
+    font-family: 楷体;
+    font-weight: bold;
+}
