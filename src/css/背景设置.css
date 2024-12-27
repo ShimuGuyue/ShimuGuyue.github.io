@@ -3,7 +3,7 @@ body {  /* 背景图片 */
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right center;
+    background-position: 83.33% center;
 }
 
 body::before {  /* 背景图片亮度 */
