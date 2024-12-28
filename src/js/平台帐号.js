@@ -17,7 +17,7 @@ document.addEventListener('DOMContentLoaded', () =>
             data.算法学习.forEach(account =>
             {
                 const p = document.createElement('p');
-                p.innerHTML = `${account.平台}： <a href="${account.网址}" target="_blank" style="color: pink; text-decoration: none;">${account.用户名}</a>`;
+                p.innerHTML = `${account.平台}-<a href="${account.网址}" target="_blank" style="color: pink; text-decoration: none;">${account.用户名}</a>`;
                 p.style.fontSize = '19px'; // 设置字体大小
                 p.style.fontFamily = '仿宋'; // 设置中文字体为楷体，英文字体为仿宋
                 accountInfoDiv.appendChild(p);
@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () =>
             data.社交媒体.forEach(account =>
             {
                 const p = document.createElement('p');
-                p.innerHTML = `${account.平台}： <a href="${account.网址}" target="_blank" style="color: pink; text-decoration: none;">${account.用户名}</a>`;
+                p.innerHTML = `${account.平台}-<a href="${account.网址}" target="_blank" style="color: pink; text-decoration: none;">${account.用户名}</a>`;
                 p.style.fontSize = '19px'; // 设置字体大小
                 p.style.fontFamily = '仿宋'; // 设置中文字体为楷体，英文字体为仿宋
                 accountInfoDiv.appendChild(p);

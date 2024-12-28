@@ -2,3 +2,42 @@ body {
     overflow-y: scroll; /* 始终显示垂直滚动条 */
     scroll-behavior: smooth; /* 平滑滚动效果 */
 }
+
+.点击爱心 {
+    position: absolute;
+    width: 6px; /* 调整爱心大小 */
+    height: 6px; /* 调整爱心大小 */
+    transform: rotate(45deg);
+    animation: fadeOut 1s ease-out;
+}
+
+.点击爱心::before,
+.点击爱心::after {
+    content: '';
+    position: absolute;
+    width: 6px; /* 调整爱心大小 */
+    height: 6px; /* 调整爱心大小 */
+    background-color: inherit; /* 继承父元素的背景颜色 */
+    border-radius: 50%;
+}
+
+.点击爱心::before {
+    top: -3px;
+    left: 0;
+}
+
+.点击爱心::after {
+    top: 0;
+    left: -3px;
+}
+
+@keyframes fadeOut {
+    0% {
+        opacity: 1;
+        transform: scale(1) rotate(45deg);
+    }
+    100% {
+        opacity: 0;
+        transform: scale(2) rotate(45deg);
+    }
+}
