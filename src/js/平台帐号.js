@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', () =>
 {
-    fetch('src/data/平台帐号.json')
+    fetch('src/json/平台帐号.json')
         .then(response => response.json())
         .then(data =>
         {
-            const accountInfoDiv = document.querySelector('.左侧文本');
+            const accountInfoDiv = document.querySelector('.左侧边栏');
 
             // 输出“算法学习”标题
             const h2Algorithm = document.createElement('h2');

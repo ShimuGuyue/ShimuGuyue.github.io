@@ -9,7 +9,7 @@
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-.左侧文本 {
+.左侧边栏 {
     position: absolute;
     top: 140px;
     left: 10px;
@@ -17,6 +17,7 @@
     height: 780px;
     padding: 10px;
     border: none;   /* 隐藏边框 */
+    /* border: 1px solid #ccc; 显示边框 */
     border-radius: 5px;
     box-shadow: none;  /* 隐藏阴影 */
     background-color: transparent;  /* 背景透明 */
@@ -24,3 +25,4 @@
     font-family: 楷体;
     font-weight: bold;
 }
+
