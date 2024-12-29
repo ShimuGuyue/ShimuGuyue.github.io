@@ -57,7 +57,7 @@ Object.assign(上一级.style,
 {
     width: '160px',
     height: '90px',
-    backgroundImage: 'url("../images/按钮_编程语言.jpg")',
+    backgroundImage: 'url("../images/按钮_Cpp.jpg")',
     backgroundSize: 'cover',
     border: '4px solid',
     borderImage: 'linear-gradient(to right, yellow, pink, yellow, pink) 1',
@@ -90,58 +90,9 @@ Object.assign(上一级.文本.style,
 // 添加点击事件，设置超链接
 上一级.addEventListener('click', () =>
 {
-    window.location.href = '学习笔记.html';
+    window.location.href = '编程语言.html';
 });
 // 将文本添加到按钮中
 上一级.appendChild(上一级.文本);
 // 将按钮添加到页面中
 document.body.appendChild(上一级);
-
-
-
-/*  “Cpp”按钮  */
-const Cpp = document.createElement('button');
-Cpp.id = 'Cpp';
-Object.assign(Cpp.style, 
-{
-    width: '160px',
-    height: '90px',
-    backgroundImage: 'url("../images/按钮_Cpp.jpg")',
-    backgroundSize: 'cover',
-    border: '4px solid',
-    borderImage: 'linear-gradient(to right, yellow, pink, yellow, pink) 1',
-    cursor: 'pointer',
-    position: 'fixed',
-    right: '50px',
-    top: `${上一级.getBoundingClientRect().bottom + 10}px`
-});
-// 添加文本
-Cpp.文本 = document.createElement('span');
-Cpp.文本.innerText = 'C++';
-Object.assign(Cpp.文本.style, 
-{
-    color: '#dark', 
-    fontSize: '32px',
-    fontFamily: '楷体',
-    fontWeight: 'bold',
-    paddingTop: '20px',
-    opacity: '0'
-});
-// 鼠标悬停时显示文字
-Cpp.addEventListener('mouseover', () =>
-{
-    Cpp.文本.style.opacity = '1';
-});
-Cpp.addEventListener('mouseout', () =>
-{
-    Cpp.文本.style.opacity = '0';
-});
-// 添加点击事件，设置超链接
-Cpp.addEventListener('click', () =>
-{
-    window.location.href = '../html/Cpp.html';
-});
-// 将文本添加到按钮中
-Cpp.appendChild(Cpp.文本);
-// 将按钮添加到页面中
-document.body.appendChild(Cpp);
