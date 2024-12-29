@@ -88,9 +88,9 @@ Object.assign(学习笔记.文本.style,
     学习笔记.文本.style.opacity = '0';
 });
 // 添加点击事件，设置超链接
-学习笔记.addEventListener('click', () => 
+学习笔记.addEventListener('click', () =>
 {
-    window.open('src/html/学习笔记.html', '_blank');
+    window.location.href = 'src/html/学习笔记.html';
 });
 // 将文本添加到按钮中
 学习笔记.appendChild(学习笔记.文本);
@@ -137,8 +137,9 @@ Object.assign(收藏夹.文本.style,
     收藏夹.文本.style.opacity = '0';
 });
 // 添加点击事件，设置超链接
-收藏夹.addEventListener('click', () => {
-    window.open('src/html/收藏夹.html', '_blank');
+收藏夹.addEventListener('click', () =>
+{
+    window.location.href = 'src/html/收藏夹.html';
 });
 // 将文本添加到按钮中
 收藏夹.appendChild(收藏夹.文本);
